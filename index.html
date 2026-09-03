@@ -1,0 +1,132 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berlethe SAMBA - Consultant en Stratégie</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Poppins', sans-serif; line-height: 1.6; color: #334155; background-color: #f8fafc; }
+
+        header {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: #ffffff;
+            padding: 4rem 1rem 3rem 1rem;
+            text-align: center;
+        }
+
+        .profile-pic {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #38bdf8;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+            margin-bottom: 1.5rem;
+        }
+
+        header h1 { font-size: 2.2rem; font-weight: 700; margin-bottom: 0.3rem; }
+        header .subtitle { font-size: 1.2rem; color: #38bdf8; font-weight: 600; margin-bottom: 0.5rem; }
+        header p.tagline { font-size: 1rem; color: #94a3b8; max-width: 600px; margin: 0 auto; }
+
+        .container { max-width: 950px; margin: -2rem auto 3rem auto; padding: 0 1.5rem; position: relative; z-index: 10; }
+
+        .card {
+            background: #ffffff;
+            border-radius: 12px;
+            padding: 2.5rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+            border: 1px solid #e2e8f0;
+        }
+        .card h2 {
+            color: #0f172a;
+            font-size: 1.5rem;
+            margin-bottom: 1.2rem;
+            border-bottom: 3px solid #38bdf8;
+            display: inline-block;
+            padding-bottom: 0.3rem;
+        }
+
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; margin-top: 1rem; }
+        .grid-item { background-color: #f1f5f9; padding: 1.5rem; border-radius: 8px; border-top: 4px solid #0284c7; }
+        .grid-item h3 { margin-bottom: 0.5rem; color: #0f172a; font-size: 1.1rem; }
+
+        ul.list { list-style: none; }
+        ul.list li { position: relative; padding-left: 1.8rem; margin-bottom: 0.8rem; }
+        ul.list li::before { content: "➔"; position: absolute; left: 0; color: #0284c7; }
+
+        .sources-list a { color: #0284c7; text-decoration: none; }
+        .sources-list a:hover { text-decoration: underline; }
+
+        footer { text-align: center; padding: 2rem; background-color: #0f172a; color: #64748b; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <!-- REMPLACE photo.jpg PAR LE NOM EXACT DE TON IMAGE SUR GITHUB -->
+        <img src="photo.jpg" alt="Berlethe SAMBA" class="profile-pic">
+        
+        <h1>Berlethe SAMBA</h1>
+        <p class="subtitle">Consultant en Stratégie d'Entreprise</p>
+        <p class="tagline">Accompagnement des dirigeants dans leurs décisions stratégiques, la transformation organisationnelle et la croissance.</p>
+    </header>
+
+    <div class="container">
+        
+        <section class="card">
+            <h2>À propos du Métier</h2>
+            <p>Le consultant en stratégie apporte une expertise externe et impartiale aux directions générales. Son rôle est de diagnostiquer les enjeux complexes, d'identifier les opportunités de croissance et de formaliser des feuilles de route opérationnelles pour assurer la pérennité de l'entreprise.</p>
+        </section>
+
+        <section class="card">
+            <h2>Champs d'Intervention</h2>
+            <ul class="list">
+                <li><strong>Analyse & Diagnostic :</strong> Étude de marché, positionnement concurrentiel et audit interne.</li>
+                <li><strong>Stratégie de Croissance :</strong> Diversification, expansion géographique et nouveaux modèles économiques.</li>
+                <li><strong>Optimisation Organisationnelle :</strong> Restructuration des processus et conduite du changement.</li>
+                <li><strong>Opérations Financières :</strong> Accompagnement aux fusions-acquisitions (M&A) et due diligence.</li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2>Compétences Clés</h2>
+            <div class="grid">
+                <div class="grid-item">
+                    <h3>Analyse Quantitative</h3>
+                    <p>Modélisation de données et analyse financière approfondie pour guider les décisions.</p>
+                </div>
+                <div class="grid-item">
+                    <h3>Résolution de Problèmes</h3>
+                    <p>Capacité à décomposer des problématiques complexes en leviers d'action simples.</p>
+                </div>
+                <div class="grid-item">
+                    <h3>Leadership & Influence</h3>
+                    <p>Présentation d'impact auprès des comités de direction et gestion des parties prenantes.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Sources & Références</h2>
+            <ul class="list sources-list">
+                <li>
+                    <strong>Apec :</strong> Fiche métier du conseil en stratégie et organisation – 
+                    <a href="https://www.apec.fr" target="_blank">apec.fr</a>
+                </li>
+                <li>
+                    <strong>Consultor :</strong> Portail d'information spécialisé dans le conseil en stratégie – 
+                    <a href="https://www.consultor.fr" target="_blank">consultor.fr</a>
+                </li>
+            </ul>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>© 2026 Berlethe SAMBA - Projet Professionnel</p>
+    </footer>
+
+</body>
+</html>
